@@ -14,6 +14,8 @@ Here are some questions to consider:
 
 _Keep in mind that in order to properly build out the relationships between an `Animal` and a `Zoo` class, an instance of one need to know about the instance of the other. Consider where and how this dependency needs to be implemented._
 
+![Flatiron Zoo](https://curriculum-content.s3.amazonaws.com/module-1/ruby-oo-relationships/flatiron-zoo-exercise/Image_124_ZooGraphic.png)
+
 ### Zoo Class
 - A `zoo` should be initialized with a name and a location, which should both be passed as strings.
 - `Zoo#location` should return the location of the zoo instance.
