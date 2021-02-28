@@ -15,15 +15,14 @@ def self.all
     @@animal
 end
 
-# def zoo
-#     self.zoo
-#     binding.pry
-# end
-
-#  def self.find_by_species
-#     Animal.all.select {|animal| animal.zoo == self}
-# end
-
+ def zoos
+    self.zoo     
 end
 
-# dog=Animal.new("dog", 3, "fred")
+def self.find_by_species(species)
+Animal.all.select do |animal|
+    animal.species == species
+end
+end
+
+end
